@@ -24,7 +24,7 @@ cd simple_tensorflow_serving && docker build . --tag stefanondisponibile/simple-
 
 Run the container: 
 ```
-docker run -dp 8501:8501 stefanondisponibile/simple-tf-use:latest`
+docker run -dp 8501:8501 stefanondisponibile/simple-tf-use:latest
 ```
 
 Test it: 
