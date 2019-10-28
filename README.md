@@ -1,5 +1,5 @@
 # simple-tf-use
-Simple-TensorFlow-Serving powered Universal Sentence Encoder [Multilingual, Large]
+[Simple-TensorFlow-Serving powered Universal Sentence Encoder](https://github.com/tobegit3hub/simple_tensorflow_serving) [Multilingual, Large]
 
 ---
 
