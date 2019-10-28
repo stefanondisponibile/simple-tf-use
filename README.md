@@ -25,7 +25,11 @@ cd simple_tensorflow_serving && docker build . --tag stefanondisponibile/simple-
 Run the container: 
 ```
 docker run -dp 8501:8501 stefanondisponibile/simple-tf-use:latest`
-Test it: `curl -H "Content-Type: application/json" -X POST -d '{"model_name": "default", "model_version": "001", "data": { "text": ["Some text."] }}' http://localhost:8501
+```
+
+Test it: 
+```
+curl -H "Content-Type: application/json" -X POST -d '{"model_name": "default", "model_version": "001", "data": { "text": ["Some text."] }}' http://localhost:8501
 ```
 
 Looking good? Push it to DockerHUB: 
