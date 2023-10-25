@@ -17,4 +17,4 @@ tensorflow-estimator==1.13.0
 tensorflow-hub==0.6.0
 termcolor==1.1.0
 tf-sentencepiece==0.1.83
-Werkzeug==0.16.0
+Werkzeug==3.0.1
